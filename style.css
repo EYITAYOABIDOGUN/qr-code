@@ -1,14 +1,14 @@
 :root {
   --white: hsl(0, 0%, 100%);
-  --ligthgrey: hsl(212, 45%, 89%);
-  --grayishdrk: hsl(220, 15%, 55%);
+  --ligthgrey: hwb(212 84% 6%);
+  --grayishdrk: hsl(200, 45%, 89%);
   --drkblue: hsl(218, 44%, 22%);
 }
 body {
   background-color: var(--grayishdrk);
 }
 .background {
-  background-color: var(--ligthgrey);
+  background-color: var(--white);
   width: 300px;
   /* height: 500px; */
   display: block;
