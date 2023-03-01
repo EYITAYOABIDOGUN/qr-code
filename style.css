@@ -1,11 +1,11 @@
 :root {
   --white: hsl(0, 0%, 100%);
   --ligthgrey: hwb(212 84% 6%);
-  --grayishdrk: hsl(200, 45%, 89%);
+  --grayishdrk: hsl(220, 15%, 22%);
   --drkblue: hsl(218, 44%, 22%);
 }
 body {
-  background-color: var(--grayishdrk);
+  background-color: var(--ligthgrey);
 }
 .background {
   background-color: var(--white);
@@ -16,7 +16,7 @@ body {
   margin-right: auto;
   margin-top: 100px;
   margin-bottom: 100px;
-  height: 510px;
+  height: 540px;
   /* margin: auto; */
   border-radius: 15px;
 }
@@ -24,7 +24,7 @@ h2 {
   color: var(--drkblue);
 }
 p {
-  color: var(--drkblue);
+  color: var(--grayishdrk);
   font-size: 15px;
 }
 #text {
@@ -34,7 +34,7 @@ p {
 }
 .img {
   /* background-color: black; */
-  height: 340px;
+  height: 350px;
   margin: auto;
   display: flex;
   align-items: center;
